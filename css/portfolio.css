@@ -178,6 +178,10 @@ padding-right: 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
+.button2:hover{
+    color: #FFFFFF;
+    background: #4D5AE5;
+}
 .title{   
         font-family: 'Roboto';
         font-style: normal;
@@ -223,6 +227,7 @@ padding-right: 24px;
 }
 .flex-container{
     
+    border-radius: 0px 0px 4px 4px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -235,9 +240,13 @@ padding-right: 24px;
 /* CLOUD */
 flex-basis: calc((100% - 48px)/3);
 border: 0.5px solid #F4F4FD;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 max-width: 100%;
 height: auto;
+}
+
+.flex-element:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -280,7 +289,7 @@ height: auto;
         color: #E7E9FC;}
 
 .footer-social{
-    display:flex;
+    
     margin-left: 120px;
 }
 
@@ -295,14 +304,14 @@ height: auto;
 .footer-social-icon{
     display: flex;
     gap: 16px;
-    margin-top: 16px;  }
+     }
 
 .footer-social-icon{
     border-radius: 50%;
     width: 40px;
     height: 40px;
     background-color: rgba(255, 255, 255, 0.1);
-    margin-top: 16px;
+
 }
 
 .footer-social-icon:hover,

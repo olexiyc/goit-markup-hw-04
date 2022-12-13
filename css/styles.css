@@ -127,7 +127,7 @@ body{
     color: orange;
 }
 .tel:focus{
-    color: red;
+    color: orange;
 }
 .hero-fon{
     max-width: 1440px;
@@ -136,9 +136,10 @@ body{
     text-align: center;
     margin: 0 auto;
     background-color: #2E2F42;
-    background-image: url(../images/peopleoffice.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
     background-repeat: no-repeat;
     background-size: auto;}
+
 
 .main-title{width: 500px;
     font-family: 'Roboto',sans-serif;
@@ -184,6 +185,7 @@ body{
   gap: 24px;
 }
 .goalbox{
+    border-radius: 4px;
     display: flex;
     justify-content: center;		
     align-items: center;
@@ -364,16 +366,11 @@ border-radius: 0px 0px 4px 4px;
     border-radius: 4px;
 }
 
-.customersheader{
-    margin-top: 120px;
-
-    font-family: 'Roboto', sans-serif;
+.customersheader{   font-family: 'Roboto', sans-serif;
     font-size: bold;
     font-size: 36px;
-    line-height: 42px;
-    line-height: 100%;
-    align-items: center;
-    letter-spacing: 3%;
+    line-height: 42px; align-items: center;
+    letter-spacing: 0.02em;
     vertical-align: top;
     text-align: center;
     
@@ -445,7 +442,7 @@ letter-spacing: 0.02em;
 color: #E7E9FC;}
 
 .footer-social{
-    display:flex;
+    
     margin-left: 120px;
 }
 
@@ -459,8 +456,7 @@ color: #E7E9FC;}
 
 .footer-social-icon{
     display: flex;
-    gap: 16px;
-    margin-top: 16px;  }
+    gap: 16px;  }
 
 .footer-social-icon{
     border-radius: 50%;
