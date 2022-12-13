@@ -98,6 +98,12 @@ body{
             font-size: 16px; letter-spacing: 0.02em;
             color: #2E2F42;
         }
+
+        .studio:hover,
+        .portfolio:hover,
+        .contacts:hover{
+            color: #4D5AE5;
+        }
         .mail{
             font-family: 'Roboto';
             font-style: normal;
@@ -237,12 +243,15 @@ height: auto;
 
 .footer-container{ left: 0px;
     height: 310px;
-    padding-left: 156px;
-    padding-right: 156px;
-background: #2E2F42;
-}
-.webstudio-footer{
     padding-top: 100px;
+    padding-bottom: 100px; background: #2E2F42;
+}
+
+.footer-container >.container{
+    display: flex;}
+
+.webstudio-footer{
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -253,19 +262,72 @@ background: #2E2F42;
     text-transform: uppercase;}
 
 .text-footer{
-width: 264px; 
-margin-bottom: 100px; margin-top: 16px;
-/* Body */
+        width: 264px; 
+        padding-top: 16px;
+        /* Body */
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+        
+        letter-spacing: 0.02em;
+        
+        /* CORNFLOWER */
+        
+        color: #E7E9FC;}
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* or 150% */
+.footer-social{
+    display:flex;
+    margin-left: 120px;
+}
 
-letter-spacing: 0.02em;
+.footer-social-title{
+    font-style: 'SemiBold';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+}
 
-/* CORNFLOWER */
+.footer-social-icon{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;  }
 
-color: #E7E9FC;}
+.footer-social-icon{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 16px;
+}
+
+.footer-social-icon:hover,
+.footer-social-icon:focus{
+background-color: #31D0AA;
+}
+
+.footer-social-svg{
+    width: 24px;
+    height:24px;
+    fill:#F4F4FD;
+}
+
+.footer-social-list{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    
+    
+}
+.footer-social-link{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+}
