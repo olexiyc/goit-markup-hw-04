@@ -360,11 +360,11 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 168px;
-    height: 88px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
+
 }
+
+
+
 
 .customersheader{   font-family: 'Roboto', sans-serif;
     font-size: bold;
@@ -386,20 +386,26 @@ border-radius: 0px 0px 4px 4px;
 .customer-list-link{
     display: flex;
     justify-content: center;
-    align-items: center;}
-
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    fill: grey; border: 1px solid grey;;
+    border-radius: 4px;}
+    
 .customer-list-icon{
     width: 104px;
     height: 56px;
-    fill: #AFB1B8;
-
+    color: #8e8f99;
+    
 }
 
 .customer-list-link:hover{
-    color: #4D5AE5;
+    fill: #4D5AE5;
+    
 }
 .customer-list-link:focus{
-    color: #4D5AE5;
+    fill: #4D5AE5;
+    
 }
 
 
